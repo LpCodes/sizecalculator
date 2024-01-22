@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Calculator</title>
+</head>
+
+<body>
+
+    <h1>Size Calculator</h1>
+    <p>Size Calculator is a Python package that calculates the size of a file or folder and prints it in bytes, kilobytes, and megabytes.</p>
+
+    <h2>Installation</h2>
+    <p>You can install the package using pip:</p>
+    <pre><code>pip install sizecalculator</code></pre>
+    <p>URL: <a href="https://pypi.org/project/sizecalculator/">https://pypi.org/project/sizecalculator/</a></p>
+
+    <h2>Usage</h2>
+
+    <p>Once installed, you can use the <code>sizecalculator</code> command from the command line:</p>
+    <pre><code>sizecalculator /path/to/your/file_or_folder</code></pre>
+    <p>Replace <code>/path/to/your/file_or_folder</code> with the actual path of the file or folder you want to analyze.</p>
+
+    <h3>Using <code>print_size</code> in Your Python Script</h3>
+    <p>You can also use the <code>print_size</code> function in your Python scripts or projects. Here's an example:</p>
+    <pre><code>from sizecalculator import print_size
+
+file_or_folder_path = "/path/to/your/file_or_folder"
+print_size(file_or_folder_path)</code></pre>
+    <p>Replace <code>/path/to/your/file_or_folder</code> with the actual path of the file or folder you want to analyze.</p>
+
+    <h2>Example</h2>
+    <pre><code>sizecalculator /path/to/your/file_or_folder</code></pre>
+    <p>This will print the size of the specified file or folder in bytes, kilobytes, and megabytes.</p>
+    <p>The size information will be displayed in human-readable format, including bytes, kilobytes, and megabytes.</p>
+
+</body>
+
+</html>
