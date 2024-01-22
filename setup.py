@@ -28,7 +28,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     packages=find_packages(),
-    keywords='file size calculator utility command-line',
+    keywords='file size calculator utility command-line filesize python',
     entry_points={
         'console_scripts': [
             'sizecalculator = sizecalculator.sizecalculator:main',
