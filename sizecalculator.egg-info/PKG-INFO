@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: sizecalculator
+Version: 0.1
+Summary: A Python package for displaying file size
+Home-page: https://github.com/LpCodes/sizecalculator
+Author: Lpcodes
+Project-URL: Bug Tracker, https://github.com/LpCodes/sizecalculator/issues
+Project-URL: Source Code, https://github.com/LpCodes/sizecalculator
+Keywords: file size calculator utility command-line filesize python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Size Calculator
+
+Size Calculator is a Python package that calculates the size of a file or folder and prints it in bytes, kilobytes, and megabytes.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install sizecalculator
+```
+
+## Usage
+
+Once installed, you can use the `sizecalculator` command from the command line:
+
+```bash
+sizecalculator /path/to/your/file_or_folder
+```
+
+Replace `/path/to/your/file_or_folder` with the actual path of the file or folder you want to analyze.
+
+### Using `print_size` in Your Python Script
+
+You can also use the `print_size` function in your Python scripts or projects. Here's an example:
+
+```python
+from sizecalculator import print_size
+
+file_or_folder_path = "/path/to/your/file_or_folder"
+print_size(file_or_folder_path)
+```
+
+Replace `/path/to/your/file_or_folder` with the actual path of the file or folder you want to analyze.
+
+## Example
+
+```bash
+sizecalculator /path/to/your/file_or_folder
+```
+
+This will print the size of the specified file or folder in bytes, kilobytes, and megabytes.
+
+
+
+
+The size information will be displayed in human-readable format, including bytes, kilobytes, and megabytes.
+
+

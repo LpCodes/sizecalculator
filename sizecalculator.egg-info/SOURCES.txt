@@ -1,0 +1,9 @@
+README.md
+setup.py
+sizecalculator/__init__.py
+sizecalculator/sizecalculator.py
+sizecalculator.egg-info/PKG-INFO
+sizecalculator.egg-info/SOURCES.txt
+sizecalculator.egg-info/dependency_links.txt
+sizecalculator.egg-info/entry_points.txt
+sizecalculator.egg-info/top_level.txt

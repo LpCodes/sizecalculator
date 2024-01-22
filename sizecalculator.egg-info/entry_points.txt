@@ -1,0 +1,2 @@
+[console_scripts]
+sizecalculator = sizecalculator.sizecalculator:main
